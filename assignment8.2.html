@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+      <script src="script8.2.js"></script>
+      <script src="script8.2app.js"></script>
+</head>
+<body  style="padding:50px">
+  
+      <div id="main">
+    <center>
+        <h2><strong> My Selfie Tech</strong></h2>
+        <button type="submit"id="sign1"onclick="signup()">SignUp</button>
+        <button type="submit" id="login1"onclick="login()">Login</button>
+    </center>
+    </div>
+    <div id="signup">
+        <center>
+        <h2><strong>My Selfie Tech</strong></h2>
+        <div>
+           SignUp<br>
+            <input type="text"name="name"id="name"placeholder="Username"><br>
+            <input type="email"name="email"id="email"placeholder="Email"><br>
+            <input type="password"name="password"id="password"placeholder="password"><br>
+            <button type="submit" id="login1"onclick="validatesignup()"> Submit Query</button><br><br>
+            <button type="submit" id="main1"onclick="main()">Back</button> 
+        </div>
+    </center>
+    </div>
+     <div id="login">    
+         <center>
+        <h2><strong>My Selfie Tech</strong></h2>
+        <div>
+           Login<br>
+            <input type="email"name="email"id="email1"placeholder="Email"><br>
+            <input type="password"name="password"id="password1"placeholder="password"><br>
+            <button type="submit" id="home1"onclick="validatelogin()"> Submit Query</button><br><br>
+            <button type="submit"id="main1"onclick="main()">Back</button>
+        </div>
+    </center>
+    </div>
+    <div id="home">
+        <center>
+           <h2><strong> My Selfie Tech</strong></h2>
+               Welcome <span id="loggedInUser"> </span>!<br><br>
+        <button type="submit"id="main1"onclick="main()">logout</button>
+       </center>
+    </div>
+</body>
+</html>
